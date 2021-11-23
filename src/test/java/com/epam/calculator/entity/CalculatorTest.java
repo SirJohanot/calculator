@@ -95,9 +95,9 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
 
         //when
-        double result = calculator.divide(3, -2);
+        double result = calculator.divide(3, -0.1);
 
         //then
-        Assert.assertEquals(-1.5, result, 0);
+        Assert.assertEquals(-30, result, 0);
     }
 }
