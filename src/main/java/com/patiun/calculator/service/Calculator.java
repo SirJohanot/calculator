@@ -1,4 +1,4 @@
-package com.epam.calculator.entity;
+package com.patiun.calculator.service;
 
 public class Calculator {
 
